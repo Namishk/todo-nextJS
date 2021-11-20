@@ -55,7 +55,7 @@ export default function Todo() {
       <div className='list'>
         {list.map(todo => {
                 return(
-                    <div className={todo.category}>
+                    <div key={todo.category}>
                         {todo.task} &nbsp;&nbsp; : &nbsp;&nbsp; {todo.category}
                     </div>
                 )

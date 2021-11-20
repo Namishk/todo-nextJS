@@ -6,7 +6,7 @@ export default function TodoList() {
         <div>
             {data.map(todo => {
                 return(
-                    <div className={todo.category}>
+                    <div key={todo.category}>
                         {todo.task}
                     </div>
                 )

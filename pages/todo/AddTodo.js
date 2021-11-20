@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 
-export default function addTodo() {
+export default function AddTodo() {
 
     const [task, setTask] = useState('');
     const [category, setCategory] =  useState('');
